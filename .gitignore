@@ -1,0 +1,20 @@
+Create/Edit .gitignore file  
+In your project folder, make a file named .gitignore (no extension). Inside, list what you want Git to ignore:
+# STM32CubeIDE ignore rules
+Debug/
+Release/
+.settings/
+*.launch
+*.log
+git rm -r --cached Debug
+git rm -r --cached Release
+git rm -r --cached .settings
+git rm --cached *.launch
+git rm --cached *.log
+git add .gitignore
+git commit -m "Clean repo: remove debug and IDE files"git rm -r --cached Debug
+git rm -r --cached Release
+git rm -r --cached .settings
+git rm --cached *.launch
+git rm --cached *.log
+
