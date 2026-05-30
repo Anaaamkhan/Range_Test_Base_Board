@@ -6,15 +6,3 @@ Release/
 .settings/
 *.launch
 *.log
-git rm -r --cached Debug
-git rm -r --cached Release
-git rm -r --cached .settings
-git rm --cached *.launch
-git rm --cached *.log
-git add .gitignore
-git commit -m "Clean repo: remove debug and IDE files"git rm -r --cached Debug
-git rm -r --cached Release
-git rm -r --cached .settings
-git rm --cached *.launch
-git rm --cached *.log
-
